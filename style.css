@@ -1,4 +1,20 @@
-nav-li{
+.nav-li{
     display: flex;
     justify-content: flex-end;
+}
+
+.nav-li li {
+    list-style: none;
+    background: blanchedalmond;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.nav-li li:hover {
+    background: burlywood;
+}
+
+.nav-li li a {
+    text-decoration: none;
 }

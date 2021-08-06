@@ -1,4 +1,4 @@
-.nav-li{
+.nav-li {
     display: flex;
     justify-content: flex-end;
 }
@@ -17,4 +17,35 @@
 
 .nav-li li a {
     text-decoration: none;
+}
+
+.material-section{}
+
+.content-card {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.card .card-actions {
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-image img {
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 30px ;
 }

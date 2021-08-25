@@ -62,3 +62,22 @@
     justify-content: center;
     margin: 30px ;
 }
+.close-button {
+    position: absolute;
+    right:0;
+    top:0;
+    width: 40px;
+    height: 40px;
+}
+#dialog-video {
+    display:none;
+    padding:0;
+    align-self: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:grey;
+    height: 50vh;
+    width: 50vw; 
+}

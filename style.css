@@ -33,11 +33,24 @@
     flex-direction: column;
     width: 300px;
 }
+
+.card-actions:hover {
+    cursor: pointer;
+}
+
 .card .card-actions {
     border: 3px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card-actions * {
+    text-decoration: none;
+    color: black;
+}
+.card-actions:hover {
+    cursor: pointer;
 }
 
 .card .card-image img {

@@ -73,7 +73,8 @@
     height: 40px;
 }
 #dialog-video {
-    display:none;
+    opacity: 100%;
+    display: block;
     padding:0;
     align-self: center;
     position: fixed;
@@ -81,6 +82,14 @@
     left: 50%;
     transform: translate(-50%,-50%);
     background-color:grey;
-    height: 50vh;
-    width: 50vw; 
+}
+
+.dialog-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 50%;
 }
